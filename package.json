@@ -1,0 +1,24 @@
+{
+  "name": "mountains",
+  "version": "1.0.0",
+  "description": "gif loading page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuckb1789/mountains.git"
+  },
+  "author": "Charlie Beck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chuckb1789/mountains/issues"
+  },
+  "homepage": "https://github.com/chuckb1789/mountains#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
