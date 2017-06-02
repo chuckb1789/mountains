@@ -1,3 +1,9 @@
+$(function() {
+    $('.preload').fadeOut(2000, function() {
+        $('.content').fadeIn(1000);
+    });
+});
+
 var images = ['./mtn1.jpg', './mtn2.jpg'];
 
 var count = 0;
